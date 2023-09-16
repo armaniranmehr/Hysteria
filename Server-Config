@@ -1,14 +1,14 @@
-listen: :444
+listen: :2096
 tls:
   cert: /root/hy2/ca.crt
   key: /root/hy2/ca.key
 obfs:
   type: salamander
   salamander:
-    password: iSegaro
+    password: Ashgabat1998
 auth:
   type: password
-  password: iSegaro
+  password: KurmancBakuri
 quic:
   initStreamReceiveWindow: 8388608
   maxStreamReceiveWindow: 8388608
@@ -26,18 +26,18 @@ udpIdleTimeout: 60s
 resolver:
   type: udp
   tcp:
-    addr: 8.8.8.8:53
+    addr: 8.8.4.4:53
     timeout: 4s
   udp:
     addr: 8.8.4.4:53
     timeout: 4s
   tls:
-    addr: 1.1.1.1:853
+    addr: 8.8.4.4:853
     timeout: 10s
-    sni: cloudflare-dns.com
+    sni: aws.amazon.com
     insecure: false
   https:
-    addr: 1.1.1.1:443
+    addr: 8.8.4.4:443
     timeout: 10s
-    sni: cloudflare-dns.com
+    sni: aws.amazon.com
     insecure: false
