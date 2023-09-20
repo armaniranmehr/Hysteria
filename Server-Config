@@ -34,10 +34,10 @@ resolver:
   tls:
     addr: 8.8.4.4:853
     timeout: 10s
-    sni: aws.amazon.com
+    sni: ftp.debian.org
     insecure: false
   https:
     addr: 8.8.4.4:443
     timeout: 10s
-    sni: aws.amazon.com
+    sni: ftp.debian.org
     insecure: false
