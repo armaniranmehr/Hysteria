@@ -41,3 +41,8 @@ resolver:
     timeout: 10s
     sni: ftp.debian.org
     insecure: false
+masquerade:
+  type: proxy
+  proxy:
+    url: https://ftp.debian.org/
+    rewriteHost: true
