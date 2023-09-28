@@ -31,7 +31,7 @@ resolver:
 masquerade:
   type: proxy
   proxy:
-    url: https://ftp.debian.org/
+    url: https://aws.amazon.com/
     rewriteHost: true
   listenHTTPS: :443
   forceHTTPS: true
