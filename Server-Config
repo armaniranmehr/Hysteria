@@ -31,7 +31,7 @@ resolver:
 masquerade:
   type: proxy
   proxy:
-    url: https://aws.amazon.com/
+    url: https://splus.ir/
     rewriteHost: true
   listenHTTPS: :443
   forceHTTPS: true
