@@ -33,5 +33,6 @@ masquerade:
   proxy:
     url: https://ftp.debian.org/
     rewriteHost: true
+  listenHTTP: :80
   listenHTTPS: :443
   forceHTTPS: true
