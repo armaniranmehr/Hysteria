@@ -25,22 +25,9 @@ disableUDP: false
 udpIdleTimeout: 60s
 resolver:
   type: udp
-  tcp:
-    addr: 8.8.4.4:53
-    timeout: 4s
   udp:
     addr: 8.8.4.4:53
     timeout: 4s
-  tls:
-    addr: 8.8.4.4:853
-    timeout: 10s
-    sni: ftp.debian.org
-    insecure: false
-  https:
-    addr: 8.8.4.4:443
-    timeout: 10s
-    sni: ftp.debian.org
-    insecure: false
 masquerade:
   type: proxy
   proxy:
