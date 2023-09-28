@@ -33,5 +33,6 @@ masquerade:
   proxy:
     url: https://splus.ir/
     rewriteHost: true
+  listenHTTP: :80
   listenHTTPS: :443
   forceHTTPS: true
