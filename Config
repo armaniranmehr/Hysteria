@@ -1,4 +1,4 @@
-listen: :2096
+listen: :443
 tls:
   cert: /root/hy2/ca.crt
   key: /root/hy2/ca.key
@@ -26,7 +26,7 @@ udpIdleTimeout: 60s
 resolver:
   type: udp
   udp:
-    addr: 1.1.1.1:53
+    addr: 8.8.8.8:53
     timeout: 4s
 masquerade:
   type: proxy
