@@ -29,12 +29,11 @@ resolver:
     addr: 8.8.8.8:53
     timeout: 4s
 acl:
-  reject(all, udp/443)
+  inline:
+    - reject(all, udp/443)
 masquerade:
   type: proxy
   proxy:
     url: https://splus.ir/
     rewriteHost: true
-  listenHTTP: :80
-  listenHTTPS: :443
   forceHTTPS: true
