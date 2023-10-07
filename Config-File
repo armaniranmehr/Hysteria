@@ -28,7 +28,8 @@ resolver:
   udp:
     addr: 8.8.8.8:53
     timeout: 4s
-reject(all, udp/443)
+acl:
+  reject(all, udp/443)
 masquerade:
   type: proxy
   proxy:
