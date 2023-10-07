@@ -29,7 +29,10 @@ resolver:
     addr: 8.8.8.8:53
     timeout: 4s
 outbounds:
-  reject(all, udp/443)
+  - name: block_quic_protocol
+    type: reject
+    reject:
+      mode: all, udp/443
 masquerade:
   type: proxy
   proxy:
