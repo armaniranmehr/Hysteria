@@ -21,16 +21,13 @@ bandwidth:
   up: 1000 mbps
   down: 1000 mbps
 ignoreClientBandwidth: false
-disableUDP: false
+disableUDP: true
 udpIdleTimeout: 60s
 resolver:
   type: udp
   udp:
     addr: 8.8.8.8:53
     timeout: 4s
-acl:
-  inline:
-    - reject(all, udp/443)
 masquerade:
   type: proxy
   proxy:
