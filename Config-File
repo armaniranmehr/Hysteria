@@ -8,7 +8,7 @@ obfs:
     password: Ashgabat1998
 auth:
   type: password
-  password: KurmanjBakuri1998
+  password: AshgabatKurmanj1998
 quic:
   initStreamReceiveWindow: 8388608
   maxStreamReceiveWindow: 8388608
