@@ -21,7 +21,7 @@ bandwidth:
   up: 1000 mbps
   down: 1000 mbps
 ignoreClientBandwidth: false
-disableUDP: true
+disableUDP: false
 udpIdleTimeout: 60s
 resolver:
   type: udp
@@ -31,7 +31,7 @@ resolver:
 masquerade:
   type: proxy
   proxy:
-    url: https://splus.ir/
+    url: https://khamenei.ir/
     rewriteHost: true
   listenHTTP: :80
   listenHTTPS: :443
