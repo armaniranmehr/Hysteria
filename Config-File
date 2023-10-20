@@ -21,7 +21,7 @@ bandwidth:
   up: 1000 mbps
   down: 1000 mbps
 ignoreClientBandwidth: false
-disableUDP: false
+disableUDP: true
 udpIdleTimeout: 60s
 resolver:
   type: udp
