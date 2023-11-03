@@ -23,8 +23,3 @@ bandwidth:
 ignoreClientBandwidth: false
 disableUDP: false
 udpIdleTimeout: 120s
-resolver:
-  type: udp
-  udp:
-    addr: 208.67.222.222:53
-    timeout: 4s
