@@ -26,18 +26,18 @@ udpIdleTimeout: 60s
 resolver:
   type: https
   tcp:
-    addr: 8.8.8.8:53 
-    timeout: 4s 
+    addr: 8.8.8.8:53
+    timeout: 4s
   udp:
-    addr: 8.8.8.8:53 
+    addr: 8.8.8.8:53
     timeout: 4s
   tls:
-    addr: 8.8.8.8:853 
+    addr: 8.8.8.8:853
     timeout: 10s
     sni: dns.google
-    insecure: false 
+    insecure: false
   https:
-    addr: 8.8.8.8:443 
+    addr: 8.8.8.8:443
     timeout: 10s
     sni: dns.google
     insecure: false
