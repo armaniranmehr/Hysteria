@@ -5,10 +5,10 @@ tls:
 obfs:
   type: salamander
   salamander:
-    password: Ashgabat1998
+    password: UlkWyvesBviEt+U2RcC1FgUbxDtKKPv6J2SbUbai7tY=
 auth:
   type: password
-  password: AshgabatKurmanj1998
+  password: 75d+CgGEB7mIcncp8cPOCrIituENOFzdeIkTHYeLCqk=
 quic:
   initStreamReceiveWindow: 8388608
   maxStreamReceiveWindow: 8388608
@@ -18,13 +18,13 @@ quic:
   maxIncomingStreams: 1024
   disablePathMTUDiscovery: false
 bandwidth:
-  up: 1000 mbps
-  down: 1000 mbps
-ignoreClientBandwidth: false
+  up: 0 mbps
+  down: 0 mbps
+ignoreClientBandwidth: true
 disableUDP: false
 udpIdleTimeout: 60s
 resolver:
-  type: https
+  type: udp
   tcp:
     addr: 8.8.8.8:53
     timeout: 4s
