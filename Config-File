@@ -5,10 +5,10 @@ tls:
 obfs:
   type: salamander
   salamander:
-    password: INIXOhU2tGKJjzxV5aBKkkjV60ACiV5LawfxAZWj-n4
+    password: INIXOhU2tGKJzxV5aBK/kkjV60ACiV5LawfxA+Wj-n4
 auth:
   type: password
-  password: HRGfMesjB0KW82DV-JKJhlw7T2fg89JkQw7KZc0s2GU
+  password: hRGfMesjB0K+82/V-JKJhlw7T2fg89JkQw7KZc0s2GU
 quic:
   initStreamReceiveWindow: 8388608
   maxStreamReceiveWindow: 8388608
