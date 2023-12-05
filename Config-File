@@ -18,9 +18,9 @@ quic:
   maxIncomingStreams: 1024
   disablePathMTUDiscovery: false
 bandwidth:
-  up: 1000 mbps
-  down: 1000 mbps
-ignoreClientBandwidth: false
+  up: 0 mbps
+  down: 0 mbps
+ignoreClientBandwidth: true
 disableUDP: false
 udpIdleTimeout: 60s
 resolver:
