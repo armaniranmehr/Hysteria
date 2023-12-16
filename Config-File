@@ -23,10 +23,3 @@ bandwidth:
 ignoreClientBandwidth: true
 disableUDP: false
 udpIdleTimeout: 60s
-resolver:
-  type: https
-  https:
-    addr: 8.8.8.8:443
-    timeout: 10s
-    sni: dns.google
-    insecure: false
