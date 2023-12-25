@@ -2,10 +2,6 @@ listen: :2096
 tls:
   cert: /root/hy2/ca.crt
   key: /root/hy2/ca.key
-obfs:
-  type: salamander
-  salamander:
-    password: EsnW+CkKNcICpgbLe4eUmQ==
 auth:
   type: password
   password: GlvosBpd4KKgEO6AqAmokA==
@@ -17,6 +13,6 @@ quic:
   maxIdleTimeout: 60s
   maxIncomingStreams: 1024
   disablePathMTUDiscovery: false
-ignoreClientBandwidth: false
+ignoreClientBandwidth: true
 disableUDP: false
 udpIdleTimeout: 60s
