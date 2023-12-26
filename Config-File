@@ -2,6 +2,10 @@ listen: :2096
 tls:
   cert: /root/hy2/ca.crt
   key: /root/hy2/ca.key
+obfs:
+  type: salamander
+  salamander:
+    password: 00tYkNMBnDxMLufHmmuAWQ==
 auth:
   type: password
   password: GlvosBpd4KKgEO6AqAmokA==
