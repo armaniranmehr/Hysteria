@@ -1,4 +1,4 @@
-listen: :443
+listen: :500
 tls:
   cert: /root/hy2/ca.crt
   key: /root/hy2/ca.key
@@ -14,9 +14,16 @@ quic:
   maxStreamReceiveWindow: 8388608
   initConnReceiveWindow: 20971520
   maxConnReceiveWindow: 20971520
-  maxIdleTimeout: 30s
+  maxIdleTimeout: 60s
   maxIncomingStreams: 1024
   disablePathMTUDiscovery: false
 ignoreClientBandwidth: false
 disableUDP: false
 udpIdleTimeout: 60s
+resolver:
+  type: https
+  https:
+    addr: 8.8.8.8:443
+    timeout: 10s
+    sni: dns.google
+    insecure: false
