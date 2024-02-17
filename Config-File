@@ -20,3 +20,8 @@ quic:
 ignoreClientBandwidth: true
 disableUDP: false
 udpIdleTimeout: 60s
+resolver:
+  type: udp
+  udp:
+    addr: [2001:4860:4860::8888]:53
+    timeout: 4s
