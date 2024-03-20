@@ -14,7 +14,7 @@ quic:
   maxStreamReceiveWindow: 8388608
   initConnReceiveWindow: 20971520
   maxConnReceiveWindow: 20971520
-  maxIdleTimeout: 30s
+  maxIdleTimeout: 60s
   maxIncomingStreams: 1024
   disablePathMTUDiscovery: false
 bandwidth:
@@ -24,8 +24,3 @@ ignoreClientBandwidth: true
 speedTest: true
 disableUDP: false
 udpIdleTimeout: 60s
-resolver:
-  type: udp
-  udp:
-    addr: 8.8.8.8:53
-    timeout: 4s
