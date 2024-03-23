@@ -20,7 +20,7 @@ quic:
 bandwidth:
   up: 0 mbps
   down: 0 mbps
-ignoreClientBandwidth: true
+ignoreClientBandwidth: false
 speedTest: true
 disableUDP: false
 udpIdleTimeout: 60s
