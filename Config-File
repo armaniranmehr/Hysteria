@@ -17,10 +17,7 @@ quic:
   maxIdleTimeout: 30s
   maxIncomingStreams: 1024
   disablePathMTUDiscovery: false
-bandwidth:
-  up: 0 mbps
-  down: 0 mbps
-ignoreClientBandwidth: false
+ignoreClientBandwidth: true
 speedTest: true
 disableUDP: false
 udpIdleTimeout: 60s
