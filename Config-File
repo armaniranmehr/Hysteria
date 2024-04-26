@@ -2,10 +2,6 @@ listen: :443
 tls:
   cert: /root/hy2/ca.crt
   key: /root/hy2/ca.key
-obfs:
-  type: salamander
-  salamander:
-    password: d520e648c56154dF
 auth:
   type: password
   password: 4E2f9961b80fd005
@@ -14,7 +10,7 @@ quic:
   maxStreamReceiveWindow: 8388608
   initConnReceiveWindow: 20971520
   maxConnReceiveWindow: 20971520
-  maxIdleTimeout: 60s
+  maxIdleTimeout: 30s
   maxIncomingStreams: 1024
   disablePathMTUDiscovery: false
 ignoreClientBandwidth: true
