@@ -6,9 +6,6 @@ obfs:
   type: salamander
   salamander:
     password: B1Wc3dnV4sQED8s6zHYUMcrBnlW15T8CLK5qI3FBWgk=
-auth:
-  type: password
-  password: LrKk2IKLriKnnZ9VSrAc55rGhLwPm1QbHfOR4uQLtBY=
 quic:
   initStreamReceiveWindow: 8388608
   maxStreamReceiveWindow: 8388608
@@ -21,3 +18,6 @@ ignoreClientBandwidth: true
 speedTest: false
 disableUDP: false
 udpIdleTimeout: 60s
+auth:
+  type: password
+  password: LrKk2IKLriKnnZ9VSrAc55rGhLwPm1QbHfOR4uQLtBY=
