@@ -2,9 +2,6 @@ listen: :5060
 tls:
   cert: /root/hy2/ca.crt
   key: /root/hy2/ca.key
-auth:
-  type: password
-  password: Q1UW3RbsXI6VWHYHpzUMKaWo5e+9EmXUFcuqBdsPdyU=
 quic:
   initStreamReceiveWindow: 8388608
   maxStreamReceiveWindow: 8388608
@@ -17,3 +14,6 @@ ignoreClientBandwidth: true
 speedTest: false
 disableUDP: false
 udpIdleTimeout: 60s
+auth:
+  type: password
+  password: Q1UW3RbsXI6VWHYHpzUMKaWo5e+9EmXUFcuqBdsPdyU=
