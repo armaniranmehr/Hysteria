@@ -25,7 +25,7 @@ auth:
   type: password
   password: 7nWzFMJgPN2AiOwcKcPEXhM4UEyHPTT0VSLobtkFkkA=
 resolver:
-  type: https
+  type: udp
   tcp:
     addr: 1.1.1.1:53
     timeout: 4s
