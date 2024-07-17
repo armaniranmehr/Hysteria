@@ -25,7 +25,20 @@ auth:
   type: password
   password: 7nWzFMJgPN2AiOwcKcPEXhM4UEyHPTT0VSLobtkFkkA=
 resolver:
-  type: tcp
+  type: https
   tcp:
     addr: 1.1.1.1:53
     timeout: 4s
+  udp:
+    addr: 1.1.1.1:53
+    timeout: 4s
+  tls:
+    addr: 1.1.1.1:853
+    timeout: 10s
+    sni: one.one.one.one
+    insecure: false
+  https:
+    addr: 1.1.1.1:443
+    timeout: 10s
+    sni: one.one.one.one
+    insecure: false
