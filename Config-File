@@ -13,7 +13,7 @@ quic:
   maxConnReceiveWindow: 25165824
   maxIdleTimeout: 30s
   maxIncomingStreams: 1024
-  disablePathMTUDiscovery: false
+  disablePathMTUDiscovery: true
 bandwidth:
   up: 0 mbps
   down: 0 mbps
