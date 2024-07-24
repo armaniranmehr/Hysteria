@@ -29,16 +29,3 @@ resolver:
   tcp:
     addr: 1.1.1.1:53
     timeout: 4s
-  udp:
-    addr: 1.1.1.1:53
-    timeout: 4s
-  tls:
-    addr: 1.1.1.1:853
-    timeout: 10s
-    sni: cloudflare-dns.com
-    insecure: false
-  https:
-    addr: 1.1.1.1:443
-    timeout: 10s
-    sni: cloudflare-dns.com
-    insecure: false
