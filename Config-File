@@ -2,10 +2,6 @@ listen: :5060
 tls:
   cert: /root/hy2/ca.crt
   key: /root/hy2/ca.key
-obfs:
-  type: salamander
-  salamander:
-    password: R4CK0/jq4VSIW8BbmSUoGNSmDAX1J5WDgByhOZSAo7s=
 quic:
   initStreamReceiveWindow: 16384
   maxStreamReceiveWindow: 16777216
