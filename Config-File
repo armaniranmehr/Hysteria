@@ -1,7 +1,7 @@
 listen: :5060
 tls:
-  cert: /root/hy2/ca.crt
-  key: /root/hy2/ca.key
+  cert: /root/hy/ca.crt
+  key: /root/hy/ca.key
 obfs:
   type: salamander
   salamander:
