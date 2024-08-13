@@ -5,11 +5,11 @@ tls:
 obfs:
   type: salamander
   salamander:
-    password: sDSnpRqr3rrse2cw7GMKpnlgNvD15fVfINUocqwrJII=
+    password: EIO0F1tQoPeaO1fOqsSXwDLtg9gZNnc7UL2TtEk0OLk=
 quic:
-  initStreamReceiveWindow: 16384
+  initStreamReceiveWindow: 16777216
   maxStreamReceiveWindow: 16777216
-  initConnReceiveWindow: 16384
+  initConnReceiveWindow: 25165824
   maxConnReceiveWindow: 25165824
   maxIdleTimeout: 30s
   maxIncomingStreams: 1024
@@ -23,7 +23,7 @@ disableUDP: false
 udpIdleTimeout: 60s
 auth:
   type: password
-  password: 1mDwMwLQO6iiVhHYFJsdHVVjBUx26rm8RdkQq1OZUT8=
+  password: XKKPGJKjkuGLqxPc1Mfb00wAQx11Pn84X9roVOxursI=
 resolver:
   type: tcp
   tcp:
