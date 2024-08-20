@@ -16,7 +16,7 @@ disableUDP: false
 udpIdleTimeout: 60s
 auth:
   type: password
-  password: SrQyKj2yGm+t2+clal9Q83/v9ak1olkg7V1Wl1db/O8=
+  password: B9byuSl/YoaxezE51rLTkRGuzkoqpixudHCJZAfol30=
 resolver:
   type: tcp
   tcp:
