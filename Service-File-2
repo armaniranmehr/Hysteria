@@ -2,10 +2,10 @@
 After=network.target nss-lookup.target
 [Service]
 User=root
-WorkingDirectory=/root/hy
+WorkingDirectory=/root/hys
 CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE CAP_NET_RAW
 AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE CAP_NET_RAW
-ExecStart=/root/hy/hy2 server -c /root/hy/config.yaml
+ExecStart=/root/hys/hys2 server -c /root/hys/config.yaml
 ExecReload=/bin/kill -HUP $MAINPID
 Restart=always
 RestartSec=5
