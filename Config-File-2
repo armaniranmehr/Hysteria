@@ -1,11 +1,11 @@
-listen: :5060
+listen: :8080
 tls:
-  cert: /root/hy/ca.crt
-  key: /root/hy/ca.key
+  cert: /root/hys/ca.crt
+  key: /root/hys/ca.key
 obfs:
   type: salamander 
   salamander:
-    password: SrQyKj2yGm+t2+clal9Q83/v9ak1olkg7V1Wl1db/O8=
+    password: EfpuCz+cB22ZOvlDOJ/bpztsrdifGeX9E7NazVS2v1Q=
 quic:
   initStreamReceiveWindow: 16777216
   maxStreamReceiveWindow: 16777216
@@ -20,7 +20,7 @@ disableUDP: false
 udpIdleTimeout: 60s
 auth:
   type: password
-  password: B9byuSl/YoaxezE51rLTkRGuzkoqpixudHCJZAfol30=
+  password: 432MMa1QG92Pfw7G8BW12krqlc6jl/jrcjeoK5wvHfk=
 resolver:
   type: tcp
   tcp:
