@@ -1,0 +1,28 @@
+listen: :5060
+tls:
+  cert: /root/hy/ca.crt
+  key: /root/hy/ca.key
+obfs:
+  type: salamander 
+  salamander:
+    password: SrQyKj2yGm+t2+clal9Q83/v9ak1olkg7V1Wl1db/O8=
+quic:
+  initStreamReceiveWindow: 16777216
+  maxStreamReceiveWindow: 16777216
+  initConnReceiveWindow: 25165824
+  maxConnReceiveWindow: 25165824
+  maxIdleTimeout: 30s
+  maxIncomingStreams: 1024
+  disablePathMTUDiscovery: false
+ignoreClientBandwidth: true
+speedTest: false
+disableUDP: false
+udpIdleTimeout: 60s
+auth:
+  type: password
+  password: B9byuSl/YoaxezE51rLTkRGuzkoqpixudHCJZAfol30=
+resolver:
+  type: tcp
+  tcp:
+    addr: 1.1.1.1:53
+    timeout: 4s
