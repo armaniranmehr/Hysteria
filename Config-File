@@ -3,7 +3,7 @@ tls:
   cert: /root/hy/ca.crt
   key: /root/hy/ca.key
 obfs:
-  type: salamander 
+  type: salamander
   salamander:
     password: SrQyKj2yGm+t2+clal9Q83/v9ak1olkg7V1Wl1db/O8=
 quic:
