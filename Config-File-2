@@ -3,7 +3,7 @@ tls:
   cert: /root/hys/ca.crt
   key: /root/hys/ca.key
 obfs:
-  type: salamander 
+  type: salamander
   salamander:
     password: EfpuCz+cB22ZOvlDOJ/bpztsrdifGeX9E7NazVS2v1Q=
 quic:
@@ -16,7 +16,7 @@ quic:
   disablePathMTUDiscovery: false
 ignoreClientBandwidth: true
 speedTest: false
-disableUDP: false
+disableUDP: true
 udpIdleTimeout: 60s
 auth:
   type: password
