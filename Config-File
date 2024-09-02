@@ -5,7 +5,7 @@ tls:
 obfs:
   type: salamander
   salamander:
-    password: SrQyKj2yGm+t2+clal9Q83/v9ak1olkg7V1Wl1db/O8=
+    password: RN-DTijX460Bs_qZfj756eQX_8cv9LiudQwbf7dlQxQ
 quic:
   initStreamReceiveWindow: 16384
   maxStreamReceiveWindow: 16777216
@@ -20,11 +20,9 @@ disableUDP: false
 udpIdleTimeout: 60s
 auth:
   type: password
-  password: B9byuSl/YoaxezE51rLTkRGuzkoqpixudHCJZAfol30=
+  password: i9nTjc1Tpoa9ZSkxZE8QHPQE1QEgXNCMpp_EmuLIgvM
 resolver:
-  type: https
-  https:
-    addr: 1.1.1.1:443
-    timeout: 12s
-    sni: cloudflare-dns.com
-    insecure: false
+  type: tcp
+  tcp:
+    addr: 1.1.1.1:53
+    timeout: 4s
