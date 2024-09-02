@@ -7,9 +7,9 @@ obfs:
   salamander:
     password: SrQyKj2yGm+t2+clal9Q83/v9ak1olkg7V1Wl1db/O8=
 quic:
-  initStreamReceiveWindow: 16777216
+  initStreamReceiveWindow: 16384
   maxStreamReceiveWindow: 16777216
-  initConnReceiveWindow: 25165824
+  initConnReceiveWindow: 16384
   maxConnReceiveWindow: 25165824
   maxIdleTimeout: 30s
   maxIncomingStreams: 1024
