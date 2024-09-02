@@ -22,7 +22,9 @@ auth:
   type: password
   password: B9byuSl/YoaxezE51rLTkRGuzkoqpixudHCJZAfol30=
 resolver:
-  type: tcp
-  tcp:
-    addr: 1.1.1.1:53
+  type: https
+  https:
+    addr: 1.1.1.1:443
     timeout: 12s
+    sni: cloudflare-dns.com
+    insecure: false
