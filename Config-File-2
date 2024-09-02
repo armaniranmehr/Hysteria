@@ -22,9 +22,7 @@ auth:
   type: password
   password: 432MMa1QG92Pfw7G8BW12krqlc6jl/jrcjeoK5wvHfk=
 resolver:
-  type: https
-  https:
-    addr: 1.1.1.1:443
-    timeout: 12s
-    sni: cloudflare-dns.com
-    insecure: false
+  type: tcp
+  tcp:
+    addr: 1.1.1.1:53
+    timeout: 4s
