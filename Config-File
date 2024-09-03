@@ -22,9 +22,7 @@ auth:
   type: password
   password: i9nTjc1Tpoa9ZSkxZE8QHPQE1QEgXNCMpp_EmuLIgvM
 resolver:
-  type: https
-  https:
-    addr: 1.1.1.1:443
-    timeout: 10s
-    sni: cloudflare-dns.com
-    insecure: false
+  type: tcp
+  tcp:
+    addr: 1.1.1.1:53
+    timeout: 4s
