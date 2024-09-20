@@ -22,7 +22,9 @@ auth:
   type: password
   password: tiRS9RjV4BjVWOE3bqJBZ619kbWkYpUuORk_h9ofFmU
 resolver:
-  type: tcp
-  tcp:
-    addr: 1.1.1.1:53
-    timeout: 4s
+  type: https
+  https:
+    addr: 1.1.1.1:443
+    timeout: 10s
+    sni: cloudflare-dns.com
+    insecure: false
