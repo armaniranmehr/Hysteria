@@ -5,7 +5,7 @@ tls:
 obfs:
   type: salamander
   salamander:
-    password: ya7Wk6P8irttFpwSAMxoWJ0LXpYQRn3b0DC-KwhoBXE
+    password: YWBM4td6lKs1oYgoNNwQzPbG7ZSiYNlQ6E8bOB3B8BU
 quic:
   initStreamReceiveWindow: 16777216
   maxStreamReceiveWindow: 16777216
@@ -20,7 +20,7 @@ disableUDP: false
 udpIdleTimeout: 60s
 auth:
   type: password
-  password: tiRS9RjV4BjVWOE3bqJBZ619kbWkYpUuORk_h9ofFmU
+  password: z5EzpEKYw2b0ut439DIG8Wde-jFCb8dL0HyDN5yg9SQ
 resolver:
   type: https
   https:
