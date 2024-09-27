@@ -25,6 +25,6 @@ resolver:
   type: https
   https:
     addr: 1.1.1.1:443
-    timeout: 10s
+    timeout: 12s
     sni: cloudflare-dns.com
     insecure: false
