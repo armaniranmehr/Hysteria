@@ -16,7 +16,7 @@ quic:
   disablePathMTUDiscovery: false
 ignoreClientBandwidth: true
 speedTest: false
-disableUDP: false
+disableUDP: true
 udpIdleTimeout: 60s
 auth:
   type: password
