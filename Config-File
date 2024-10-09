@@ -21,9 +21,7 @@ auth:
   type: password
   password: PpQUXYWaLX_-9rDWXgSW6EqZ5EZ_DkFmecC6TZbsS4s
 resolver:
-  type: https
-  https:
-    addr: 1.1.1.1:443
-    timeout: 10s
-    sni: cloudflare-dns.com
-    insecure: false
+  type: tcp
+  tcp:
+    addr: 1.1.1.1:53
+    timeout: 4s
