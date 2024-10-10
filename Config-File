@@ -2,10 +2,6 @@ listen: :5060
 tls:
   cert: /root/hy/ca.crt
   key: /root/hy/ca.key
-obfs:
-  type: salamander
-  salamander:
-    password: LhnUEpuxQJGk7niUd-c73kM9rumVEsHzSyP7MbWTMNU
 quic:
   initStreamReceiveWindow: 16384
   maxStreamReceiveWindow: 16777216
@@ -20,8 +16,3 @@ udpIdleTimeout: 60s
 auth:
   type: password
   password: PpQUXYWaLX_-9rDWXgSW6EqZ5EZ_DkFmecC6TZbsS4s
-resolver:
-  type: tcp
-  tcp:
-    addr: 1.1.1.1:53
-    timeout: 4s
