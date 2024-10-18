@@ -4,9 +4,9 @@ tls:
   key: /root/hy/ca.key
 quic:
   initStreamReceiveWindow: 16384
-  maxStreamReceiveWindow: 16777216
+  maxStreamReceiveWindow: 8388608
   initConnReceiveWindow: 16384
-  maxConnReceiveWindow: 25165824
+  maxConnReceiveWindow: 20971520
   maxIdleTimeout: 30s
   maxIncomingStreams: 1024
   disablePathMTUDiscovery: false
@@ -17,9 +17,7 @@ auth:
   type: password
   password: PpQUXYWaLX_-9rDWXgSW6EqZ5EZ_DkFmecC6TZbsS4s
 resolver:
-  type: https
-  https:
-    addr: 1.1.1.1:443
-    timeout: 10s
-    sni: cloudflare-dns.com
-    insecure: false
+  type: tcp
+  tcp:
+    addr: 1.1.1.1:53
+    timeout: 4s
