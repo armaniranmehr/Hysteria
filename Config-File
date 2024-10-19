@@ -4,9 +4,9 @@ tls:
   key: /root/hy/ca.key
 quic:
   initStreamReceiveWindow: 16384
-  maxStreamReceiveWindow: 8388608
+  maxStreamReceiveWindow: 16777216
   initConnReceiveWindow: 16384
-  maxConnReceiveWindow: 20971520
+  maxConnReceiveWindow: 25165824
   maxIdleTimeout: 30s
   maxIncomingStreams: 1024
   disablePathMTUDiscovery: false
