@@ -2,20 +2,16 @@ listen: :8080
 tls:
   cert: /root/hys/ca.crt
   key: /root/hys/ca.key
-obfs:
-  type: salamander
-  salamander:
-    password: EfpuCz+cB22ZOvlDOJ/bpztsrdifGeX9E7NazVS2v1Q=
 quic:
-  initStreamReceiveWindow: 16384
-  maxStreamReceiveWindow: 16777216
-  initConnReceiveWindow: 16384
-  maxConnReceiveWindow: 25165824
+  initStreamReceiveWindow: 8388608
+  maxStreamReceiveWindow: 8388608
+  initConnReceiveWindow: 20971520
+  maxConnReceiveWindow: 20971520
   maxIdleTimeout: 30s
   maxIncomingStreams: 1024
   disablePathMTUDiscovery: false
 speedTest: false
-disableUDP: true
+disableUDP: false
 udpIdleTimeout: 60s
 auth:
   type: password
@@ -24,4 +20,4 @@ resolver:
   type: tcp
   tcp:
     addr: 1.1.1.1:53
-    timeout: 4s
+    timeout: 10s
