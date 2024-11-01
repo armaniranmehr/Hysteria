@@ -3,19 +3,19 @@ tls:
   cert: /root/hy/ca.crt
   key: /root/hy/ca.key
 quic:
-  initStreamReceiveWindow: 1048576
-  maxStreamReceiveWindow: 6291456
-  initConnReceiveWindow: 2097152
-  maxConnReceiveWindow: 12582912
+  initStreamReceiveWindow: 8388608
+  maxStreamReceiveWindow: 8388608
+  initConnReceiveWindow: 20971520
+  maxConnReceiveWindow: 20971520
   maxIdleTimeout: 30s
-  maxIncomingStreams: 100
+  maxIncomingStreams: 1024
   disablePathMTUDiscovery: false
 speedTest: false
 disableUDP: false
 udpIdleTimeout: 60s
 auth:
   type: password
-  password: 4dmNNcRhsVu7b1q3TCvenA
+  password: YBRmo6oPImdQmU68AMt3WQ
 resolver:
   type: tcp
   tcp:
