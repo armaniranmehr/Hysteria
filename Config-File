@@ -5,7 +5,7 @@ tls:
 quic:
   initStreamReceiveWindow: 1048576
   maxStreamReceiveWindow: 6291456
-  initConnReceiveWindow: 2097152
+  initConnReceiveWindow: 2621440
   maxConnReceiveWindow: 15728640
   maxIdleTimeout: 30s
   maxIncomingStreams: 100
