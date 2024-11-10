@@ -2,6 +2,10 @@ listen: :8080
 tls:
   cert: /root/hy/ca.crt
   key: /root/hy/ca.key
+obfs:
+  type: salamander
+  salamander:
+    password: 259bwCImbA1hatlZ8wnHWQ
 quic:
   initStreamReceiveWindow: 1048576
   maxStreamReceiveWindow: 6291456
