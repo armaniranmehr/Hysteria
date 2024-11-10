@@ -1,12 +1,12 @@
-listen: :5060
+listen: :8080
 tls:
   cert: /root/hy/ca.crt
   key: /root/hy/ca.key
 quic:
   initStreamReceiveWindow: 1048576
   maxStreamReceiveWindow: 6291456
-  initConnReceiveWindow: 2621440
-  maxConnReceiveWindow: 15728640
+  initConnReceiveWindow: 2097152
+  maxConnReceiveWindow: 12582912
   maxIdleTimeout: 30s
   maxIncomingStreams: 100
   disablePathMTUDiscovery: false
