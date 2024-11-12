@@ -21,6 +21,3 @@ resolver:
   tcp:
     addr: 1.1.1.1:53
     timeout: 10s
-acl:
-  inline:
-    - reject(all, udp/443)
