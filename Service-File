@@ -1,5 +1,5 @@
 [Unit]
-Description=Hysteria Server Service
+Description=Hysteria Service
 After=network.target
 
 [Service]
