@@ -2,13 +2,14 @@ listen: :5060
 tls:
   cert: /root/hy/ca.crt
   key: /root/hy/ca.key
+  sniGuard: disable
 quic:
-  initStreamReceiveWindow: 1048576
-  maxStreamReceiveWindow: 6291456
-  initConnReceiveWindow: 2097152
-  maxConnReceiveWindow: 12582912
+  initStreamReceiveWindow: 8388608
+  maxStreamReceiveWindow: 8388608
+  initConnReceiveWindow: 20971520
+  maxConnReceiveWindow: 20971520
   maxIdleTimeout: 30s
-  maxIncomingStreams: 100
+  maxIncomingStreams: 1024
   disablePathMTUDiscovery: false
 speedTest: false
 disableUDP: false
@@ -20,4 +21,4 @@ resolver:
   type: tcp
   tcp:
     addr: 1.1.1.1:53
-    timeout: 10s
+    timeout: 4s
