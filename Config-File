@@ -3,6 +3,10 @@ tls:
   cert: /root/hy/ca.crt
   key: /root/hy/ca.key
   sniGuard: disable
+obfs:
+  type: salamander
+  salamander:
+    password: e3CBr5K7ScbljA40xIFucg
 quic:
   initStreamReceiveWindow: 8388608
   maxStreamReceiveWindow: 8388608
