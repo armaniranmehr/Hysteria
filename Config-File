@@ -8,9 +8,9 @@ obfs:
   salamander:
     password: EHcDGcgNzKfS4owyQhl4EQ
 quic:
-  initStreamReceiveWindow: 16384
+  initStreamReceiveWindow: 1048576
   maxStreamReceiveWindow: 6291456
-  initConnReceiveWindow: 16384
+  initConnReceiveWindow: 2621440
   maxConnReceiveWindow: 15728640
   maxIdleTimeout: 45s
   maxIncomingStreams: 100
@@ -24,5 +24,5 @@ auth:
 resolver:
   type: tcp
   tcp:
-    addr: 1.1.1.1:53
+    addr: 208.67.222.222:53
     timeout: 4s
