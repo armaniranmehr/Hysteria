@@ -22,9 +22,7 @@ auth:
   type: password
   password: 8363mYs4PrmTKmH0v5Ur6g
 resolver:
-  type: https
-  https:
-    addr: 1.1.1.1:443
-    timeout: 10s
-    sni: cloudflare-dns.com
-    insecure: false
+  type: tcp
+  tcp:
+    addr: 8.8.8.8:53
+    timeout: 4s
