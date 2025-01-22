@@ -22,9 +22,7 @@ auth:
   type: password
   password: yDgxtw80m90Y9X6SucMXWA
 resolver:
-  type: https
-  https:
-    addr: 8.8.8.8:443
+  type: tcp
+  tcp:
+    addr: 8.8.8.8:53
     timeout: 4s
-    sni: dns.google
-    insecure: false
