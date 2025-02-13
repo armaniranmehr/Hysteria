@@ -21,8 +21,3 @@ udpIdleTimeout: 60s
 auth:
   type: password
   password: 7ZeWFyUe2oStPxrR3DoGaw
-resolver:
-  type: tcp
-  tcp:
-    addr: 1.1.1.1:53
-    timeout: 4s
