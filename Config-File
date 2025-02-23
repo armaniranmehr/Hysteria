@@ -1,4 +1,4 @@
-listen: :8080
+listen: :8443
 tls:
   cert: /root/hy/ca.crt
   key: /root/hy/ca.key
@@ -16,7 +16,7 @@ quic:
   maxIncomingStreams: 100
   disablePathMTUDiscovery: false
 speedTest: false
-disableUDP: false
+disableUDP: true
 udpIdleTimeout: 60s
 auth:
   type: password
