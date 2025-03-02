@@ -8,12 +8,12 @@ obfs:
   salamander:
     password: DdqtMbCZMTxIL4isOFiAGQ
 quic:
-  initStreamReceiveWindow: 1048576
-  maxStreamReceiveWindow: 6291456
-  initConnReceiveWindow: 2621440
-  maxConnReceiveWindow: 15728640
-  maxIdleTimeout: 45s
-  maxIncomingStreams: 100
+  initStreamReceiveWindow: 8388608
+  maxStreamReceiveWindow: 8388608
+  initConnReceiveWindow: 20971520
+  maxConnReceiveWindow: 20971520
+  maxIdleTimeout: 30s
+  maxIncomingStreams: 1024
   disablePathMTUDiscovery: false
 speedTest: false
 disableUDP: false
