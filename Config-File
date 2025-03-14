@@ -22,7 +22,7 @@ auth:
   type: password
   password: jkRJqjK2XYMizZBDh7NrIw
 resolver:
-  type: tcp
-  tcp:
+  type: udp
+  udp:
     addr: 1.1.1.1:53
     timeout: 4s
