@@ -21,10 +21,3 @@ udpIdleTimeout: 60s
 auth:
   type: password
   password: jkRJqjK2XYMizZBDh7NrIw
-resolver:
-  type: https
-  https:
-    addr: 1.1.1.2:443
-    timeout: 10s
-    sni: security.cloudflare-dns.com
-    insecure: false
