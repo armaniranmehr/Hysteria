@@ -1,4 +1,4 @@
-listen: :443
+listen: :8080
 tls:
   cert: /root/hy/ca.crt
   key: /root/hy/ca.key
@@ -22,7 +22,7 @@ auth:
   type: password
   password: jkRJqjK2XYMizZBDh7NrIw
 resolver:
-  type: udp
-  udp:
+  type: tcp
+  tcp:
     addr: 1.1.1.1:53
-    timeout: 4s
+    timeout: 10s
