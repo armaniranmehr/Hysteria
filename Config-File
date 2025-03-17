@@ -22,9 +22,7 @@ auth:
   type: password
   password: jkRJqjK2XYMizZBDh7NrIw
 resolver:
-  type: https
-  https:
-    addr: 1.1.1.1:443
+  type: udp
+  udp:
+    addr: 1.1.1.1:53
     timeout: 10s
-    sni: one.one.one.one
-    insecure: false
