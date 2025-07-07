@@ -5,7 +5,7 @@ After=network.target
 [Service]
 Type=simple
 ExecStart=/root/hy/hy2 server --config /root/hy/config.yaml
-WorkingDirectory=/root/hy
+WorkingDirectory=/root
 User=root
 Environment=HYSTERIA_LOG_LEVEL=info
 CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE CAP_NET_RAW
