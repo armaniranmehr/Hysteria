@@ -2,7 +2,7 @@ listen: :
 tls:
   cert: /root/hy/ca.crt
   key: /root/hy/ca.key
-  sniGuard: strict
+  sniGuard: dns-san
 quic:
   initStreamReceiveWindow: 8388608
   maxStreamReceiveWindow: 8388608
