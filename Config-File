@@ -24,6 +24,3 @@ resolver:
     timeout: 10s
     sni: cloudflare-dns.com
     insecure: false
-acl:
-  inline:
-    - reject(all, udp/443)
