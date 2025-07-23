@@ -12,7 +12,8 @@ quic:
   maxIncomingStreams: 1024
   disablePathMTUDiscovery: false
 speedTest: false
-disableUDP: true
+disableUDP: false
+udpIdleTimeout: 60s
 auth:
   type: password
   password:
