@@ -3,10 +3,6 @@ tls:
   cert: /root/hy/ca.crt
   key: /root/hy/ca.key
   sniGuard: dns-san
-obfs:
-  type: salamander
-  salamander:
-    password:
 quic:
   initStreamReceiveWindow: 8388608
   maxStreamReceiveWindow: 8388608
@@ -26,5 +22,5 @@ resolver:
   https:
     addr: 1.1.1.1:443
     timeout: 10s
-    sni: cloudflare-dns.com
+    sni: one.one.one.one
     insecure: false
