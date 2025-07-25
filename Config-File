@@ -22,5 +22,5 @@ resolver:
   https:
     addr: 1.1.1.1:443
     timeout: 10s
-    sni: one.one.one.one
+    sni: cloudflare-dns.com
     insecure: false
