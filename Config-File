@@ -22,7 +22,8 @@ auth:
   type: password
   password:
 outbounds:
-  type: direct
-  direct:
-    mode: 4
-    fastOpen: true
+- name: direct-out
+    type: direct
+    direct:
+      mode: 4
+      fastOpen: true
