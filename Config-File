@@ -3,6 +3,10 @@ tls:
   cert: /root/hy/ca.crt
   key: /root/hy/ca.key
   sniGuard: dns-san
+obfs:
+  type: salamander
+  salamander:
+    password:
 quic:
   initStreamReceiveWindow: 8388608
   maxStreamReceiveWindow: 8388608
@@ -17,3 +21,8 @@ udpIdleTimeout: 60s
 auth:
   type: password
   password:
+outbounds:
+  type: direct
+  direct:
+    mode: 4
+    fastOpen: true
