@@ -1,12 +1,8 @@
 listen: :
 tls:
-  cert: /root/hy/ca.crt
-  key: /root/hy/ca.key
+  cert: /root/hfolder/some.crt
+  key: /root/hfolder/some.key
   sniGuard: dns-san
-obfs:
-  type: salamander
-  salamander:
-    password:
 quic:
   initStreamReceiveWindow: 8388608
   maxStreamReceiveWindow: 8388608
