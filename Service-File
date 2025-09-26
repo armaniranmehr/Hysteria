@@ -1,12 +1,13 @@
 [Unit]
 Description=Hysteria Service
-After=network-online.target
+After=network.target
 
 [Service]
 Type=simple
 ExecStart=/root/hfolder/hy server --config /root/hfolder/config.yaml
 WorkingDirectory=/root/hfolder
 User=root
+Group=root
 Environment=HYSTERIA_LOG_LEVEL=info
 NoNewPrivileges=true
 
