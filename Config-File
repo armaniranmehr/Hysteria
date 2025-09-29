@@ -22,6 +22,5 @@ outbounds:
     type: direct
     direct:
       mode: 4
-      bindIPv4: 
-      bindDevice: ens3
+      bindIPv4:
       fastOpen: true
