@@ -17,3 +17,11 @@ udpIdleTimeout: 60s
 auth:
   type: password
   password:
+outbounds:
+  - name: direct-out
+    type: direct
+    direct:
+      mode: 4
+      bindIPv4: 
+      bindDevice: ens3
+      fastOpen: true
