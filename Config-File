@@ -5,11 +5,11 @@ tls:
   sniGuard: dns-san
 quic:
   initStreamReceiveWindow: 8388608
-  maxStreamReceiveWindow: 8388608
+  maxStreamReceiveWindow: 16777216
   initConnReceiveWindow: 20971520
-  maxConnReceiveWindow: 20971520
+  maxConnReceiveWindow: 41943040
   maxIdleTimeout: 60s
-  maxIncomingStreams: 1024
+  maxIncomingStreams: 64
   disablePathMTUDiscovery: false
 speedTest: false
 disableUDP: false
