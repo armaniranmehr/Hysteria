@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/root/hfolder/hysteria server --config /root/hfolder/config.yaml
+ExecStart=/root/hfolder/hysteria-linux-amd64 server --config /root/hfolder/config.yaml
 WorkingDirectory=/root/hfolder
 User=root
 Group=root
