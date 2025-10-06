@@ -9,7 +9,7 @@ quic:
   initConnReceiveWindow: 20971520
   maxConnReceiveWindow: 41943040
   maxIdleTimeout: 60s
-  maxIncomingStreams: 64
+  maxIncomingStreams: 1024
   disablePathMTUDiscovery: false
 speedTest: false
 disableUDP: false
